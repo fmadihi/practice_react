@@ -26,8 +26,9 @@ function App() {
       {classes.map((classe,index)=>{
         return <Classes key={index} name={classe.name} finished={classe.finished} />
       })} 
+      <h1>gyi</h1>
     </div>
   );
 }
 
-export default App;
+export default App; 
